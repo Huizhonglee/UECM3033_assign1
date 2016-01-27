@@ -10,7 +10,7 @@ UECM3033 Assignment #1 Report
 
 The reports, codes and supporting documents are uploaded to Github at: 
 
-https://github.com/Huizhonglee/UECM3033_assign1
+[https://github.com/Huizhonglee/UECM3033_assign1]( https://github.com/Huizhonglee/UECM3033_assign1)
 
 
 ---------------------------------------------------------
@@ -19,7 +19,7 @@ https://github.com/Huizhonglee/UECM3033_assign1
 
 Screen shot of file (python.png)
 
-
+![python.png](python.png)
 
 
 ------------------------------------------------------------
@@ -31,6 +31,7 @@ Screen shot of file (python.png)
    0x13e1a0
 2. Write down the definite integrals that you have chosen.
   $$ \int_0^{\infty}\sqrt{x}\, e^{-x} dx = \frac{\sqrt{\pi}}{2}.$$
+
 3. Write down your system of 10 linear equations.
 
 ```
@@ -46,8 +47,19 @@ Screen shot of file (python.png)
 10 x_1 + 4 x_2 + 5 x_3 + 3x_4 + 7x_5 + 7x_6 + 9x_7 + 4x_8 + 6x_9 + 2x_10 &= 3.\
 ```
 Solution 
+```
 x_1= 0.64715161 x_2=-6.05676016  x_3=8.09957243 x_4=-5.46920533 x_5=-1.04953715  x_6=2.41561389 x_7=-0.94615949 x_8=-0.46390569  x_9=0.99463117  x_10=2.22452227
+```	
+
+Here are the examples of how to add equations in markdown:
+
+$$\int_0^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}.$$
+
+\begin{align*}
+3 x_0 +x_1 &= 9,\\
+x_0 + 2 x_1 &= 8.
+\end{align*}
 
 -----------------------------------
 
-<sup>last modified: 27/1/2016</sup>
+<sup>last modified: 28/01/2016</sup>
